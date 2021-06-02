@@ -2,7 +2,7 @@
 
 Purpose: 
 
-The purpose of this WebScraper is to gather the following information from a given YouTube link in the sheet ().
+The purpose of this WebScraper is to gather the following information from a given YouTube link in any given sheet.
 - Channel Name 
 - Video Title 
 - Views of the video
