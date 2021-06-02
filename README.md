@@ -1,4 +1,4 @@
-# YT DataScraper
+# YouTube DataScraper
 
 Purpose: 
 
