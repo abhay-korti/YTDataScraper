@@ -9,6 +9,7 @@ import datetime
 #input dev key 
 dev_key=''
 
+# Input client secret file path here
 FOLDER_PATH = r''
 CLIENT_SECRET_FILE = os.path.join(FOLDER_PATH, 'CLIENT_SECRET.json')
 API_SERVICE_NAME = 'sheets'
@@ -22,6 +23,8 @@ sheets_id = Create_Service(CLIENT_SECRET_FILE, API_SERVICE_NAME, API_VERSION, SC
 spreadsheet_id = '' 
 # The A1 notation of the values to retrieve.
 range_ = 'Sheet1'  
+
+
 video_id = []
 
 request_sheet = sheets_id.spreadsheets().values().get(spreadsheetId=spreadsheet_id, range=range_, valueRenderOption='FORMATTED_VALUE', dateTimeRenderOption='FORMATTED_STRING')
