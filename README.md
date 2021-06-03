@@ -32,4 +32,4 @@ Running WebScraper.py with the inserted info will read the sheet and the B2 colu
 
 # Credit 
 
-Google.py is a modified version of (https://developers.google.com/sheets/api/quickstart/python) https://learndataanalysis.org/google-py-file-source-code/ - by Jie Jenn. 
+Google.py is a modified version https://developers.google.com/sheets/api/quickstart/python - https://learndataanalysis.org/google-py-file-source-code/ - by Jie Jenn. 
