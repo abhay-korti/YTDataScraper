@@ -18,12 +18,12 @@ Go to https://console.developers.google.com and enable two of the services in AP
 
 
 
-Download the scripts and change the following variables - 
+Download the scripts and change the following variables in the WebScraper.py script - 
 - dev_key - API Developer Key that needs to be generated with a Google Account from - https://console.developers.google.com
 - Client Secret JSON - Download it from the Credentials Generation screen from you Google Account.
 - Sheets ID - Copy it from the link of a Google Sheet from a URL - (docs.google.com/spreadsheets/d/ *spreadsheetId*/)
 
-Running WebScraper.py with the inserted info will read the sheet and the B2 column for any YouTube Video links and then Return the follwing 
+Running WebScraper.py with the inserted info will read the sheet and the B2 column for any YouTube Video links and then Return the follwing
 - Channel Name - A2 
 - Video Title - C2 
 - Date Published - D2 
